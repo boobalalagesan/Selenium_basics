@@ -1,0 +1,24 @@
+1.	//*[@name='txtUsername']-	only attribute
+2.	//input[@name='txtUsername']-	element+attribute
+3.	//*[text()='OrangeHRM, Inc']-	visible text function-Exact match (or)  //a[text()='OrangeHRM, Inc']	with element
+4.	//a[contains(text(),'OrangeHRM')]-	element+contains method to find partial txt
+5.	//*[@type='submit'][@name='Submit'][@class='button']-	multiple attribute
+6. 	//*[contains(@href,'Orange')]-	partial match
+7.	//span[starts-with(text(),'User')]-	starting text     & 	normalize-space()
+
+//*[@id='divUsername']/following::input[last()]- [last()] denotes position
+normalize-space()- to take only attribute without space
+access in xpath   ancestor, parent, child, following, preceding, sibling
+
+8.	//*[@id='divUsername']/parent::* -	takes imediate parent access
+9.	//*[@id='divUsername']/child::* -	take imediate child access -  //*[@id='divUsername']/child::span 
+10.	//*[@id='divUsername']/ancestor::div
+11.	//*[@id='divUsername']/following::input
+12.	//*[@id='divUsername']/preceding::input[1]- take imediate pre element
+13.	//*[@id='txtUsername']/following-sibling::* - take following sibling in a same hierarchy
+14.	//*[@class='form-hint']/preceding-sibling::* -take preceding sibling in a same hierarchy
+
+
+topswagcode.com/xpath/
+
+
